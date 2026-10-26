@@ -121,7 +121,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdro
 .price details ul{margin:10px 0 0;padding-left:20px;color:var(--muted);font-size:15.5px}
 .note{margin-top:26px;color:var(--muted);font-size:15px;text-align:center}
 
-.videos{display:grid;grid-template-columns:repeat(2,minmax(0,300px));justify-content:center;gap:16px;margin-top:16px}
+.videos{display:grid;grid-template-columns:minmax(0,320px);justify-content:center;gap:16px;margin-top:16px}
 .btn-tg{background:#229ed9;color:#fff}.btn-tg:hover{background:#1b88bc}
 .videos video{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:var(--radius);background:#000}
 
@@ -195,7 +195,6 @@ footer a{color:#fff}
   .about,.contacts{grid-template-columns:1fr}
   .free,.service{grid-template-columns:1fr 1fr}
   .gallery{grid-template-columns:repeat(2,1fr)}
-  .videos{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:720px){
   body{font-size:16px}
@@ -418,7 +417,6 @@ footer a{color:#fff}
     </div>
     <div class="videos">
       <video src="assets/video/facade.mp4" poster="assets/video/facade.jpg" controls playsinline preload="none" aria-label="Видео: здание клиники"></video>
-      <video src="assets/video/clinic.mp4" poster="assets/video/clinic.jpg" controls playsinline preload="none" aria-label="Видео: холл клиники"></video>
     </div>
   </div>
 </section>
